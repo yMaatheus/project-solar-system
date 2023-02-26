@@ -1,11 +1,22 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styled from 'styled-components';
+
+const TitleStyle = styled.h2`
+  text-align: center;
+  margin: 3.5rem 0;
+  
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 150%;
+`;
 
 class Title extends React.Component {
   render() {
     const { headline } = this.props;
     return (
-      <h2>{headline}</h2>
+      <TitleStyle>{headline}</TitleStyle>
     );
   }
 }
