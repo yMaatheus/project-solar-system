@@ -4,12 +4,15 @@ import styled from 'styled-components';
 
 const TitleStyle = styled.h2`
   text-align: center;
-  margin: 3.5rem 0;
+  padding: 1.5rem 0;
   
   font-style: normal;
   font-weight: 300;
   font-size: 40px;
   line-height: 150%;
+
+  text-align: center;
+  text-transform: uppercase;
 `;
 
 class Title extends React.Component {
