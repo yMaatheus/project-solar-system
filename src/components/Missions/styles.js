@@ -31,6 +31,8 @@ export const MissionCard = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: column;
+
+  overflow-x: hidden;
 `;
 
 export const MissionName = styled.p`
@@ -54,6 +56,8 @@ export const AttributesWrapper = styled.section`
   align-items: center;
 
   padding: 1.688rem;
+
+  overflow-x: hidden;
 `;
 
 export const MissionAttr = styled.p`
