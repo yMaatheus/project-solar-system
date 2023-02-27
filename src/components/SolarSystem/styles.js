@@ -9,7 +9,7 @@ export const Container = styled.div`
 
 export const Line = styled.img`
   position: relative;
-  top: 128px;
+  top: 142px;
   z-index: -1;
 `;
 
@@ -24,10 +24,16 @@ export const Card = styled.div`
   margin: 0px 1.5rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
+  height: 300px;
 `;
 
 export const ImageWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
 `;
 
 export const Image = styled.img`
