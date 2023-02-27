@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
-  font-family: Segoe UI , Tahoma , Geneva , Verdana , sans-serif;
+  color: white;
+  font-family: Epilogue , sans-serif;
+  font-style: normal;
+  font-weight: 400;
   margin: 0;
   padding: 0;
 }
@@ -10,5 +13,4 @@ body {
   background-image: url('images/background.png');
   background-position: center;
   background-size: cover;
-  color: white;
 }
