@@ -6,11 +6,15 @@ const HeaderStyle = styled.header`
   margin: 2.5rem auto;
   display: flex;
   justify-content: center;
+  max-width: 100%;
+
+  overflow-x: hidden;
 `;
 
 const Logo = styled.img`
-  max-width: 462px;
   max-height: 264px;
+
+  flex: 1;
 `;
 
 class Header extends React.Component {
