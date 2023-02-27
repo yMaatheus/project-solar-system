@@ -18,13 +18,13 @@ class SolarSystem extends React.Component {
       ),
     );
     return (
-      <S.SolarSystemContainer data-testid="solar-system">
+      <S.Container data-testid="solar-system">
         <Title headline="Planetas" />
         <S.Line src={ line } alt="Linha" />
-        <S.PlanetsContainer>
+        <S.PlanetsWrapper>
           {generatePlanets}
-        </S.PlanetsContainer>
-      </S.SolarSystemContainer>
+        </S.PlanetsWrapper>
+      </S.Container>
     );
   }
 }
