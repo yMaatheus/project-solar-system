@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const SolarSystemContainer = styled.div`
+  margin: 6.25rem auto;
   display: flex;
   justify-content: center;
   flex-direction: column;
