@@ -9,15 +9,17 @@ class PlanetCard extends React.Component {
     const PlanetWidth = `${PlanetSizes[size].width}`;
     const PlanetHeight = `${PlanetSizes[size].height}`;
     return (
-      <S.PlanetCard data-testid="planet-card">
-        <p data-testid="planet-name">{planetName}</p>
-        <S.PlanetImg
-          PlanetWidth={ PlanetWidth }
-          PlanetHeight={ PlanetHeight }
-          src={ planetImage }
-          alt={ `Planeta ${planetName}` }
-        />
-      </S.PlanetCard>
+      <S.Card data-testid="planet-card">
+        <S.ImageWrapper>
+          <S.Image
+            PlanetWidth={ PlanetWidth }
+            PlanetHeight={ PlanetHeight }
+            src={ planetImage }
+            alt={ `Planeta ${planetName}` }
+          />
+        </S.ImageWrapper>
+        <S.PlanetName data-testid="planet-name">{planetName}</S.PlanetName>
+      </S.Card>
     );
   }
 }
