@@ -15,6 +15,10 @@ const Logo = styled.img`
   max-height: 264px;
 
   flex: 1;
+
+  @media (max-width: 992px) {
+    max-width: 70%;
+  }
 `;
 
 class Header extends React.Component {
