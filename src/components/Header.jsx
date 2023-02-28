@@ -3,14 +3,22 @@ import styled from 'styled-components';
 import SolarSystemLogo from '../assets/logo-sistema-solar.svg';
 
 const HeaderStyle = styled.header`
+  margin: 2.5rem auto;
   display: flex;
   justify-content: center;
+  max-width: 100%;
+
+  overflow-x: hidden;
 `;
 
 const Logo = styled.img`
-  max-width: 462px;
   max-height: 264px;
-  margin: 2.5rem 0;
+
+  flex: 1;
+
+  @media (max-width: 992px) {
+    max-width: 70%;
+  }
 `;
 
 class Header extends React.Component {
