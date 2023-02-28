@@ -33,6 +33,10 @@ export const MissionCard = styled.div`
   flex-direction: column;
 
   overflow-x: hidden;
+
+  @media (max-width: 1260px) {
+    width: 80%;
+  }
 `;
 
 export const MissionName = styled.p`
@@ -58,6 +62,11 @@ export const AttributesWrapper = styled.section`
   padding: 1.688rem;
 
   overflow-x: hidden;
+
+  @media (max-width: 720px) {
+    flex-direction: column;
+    padding: 0;
+  }
 `;
 
 export const MissionAttr = styled.p`
@@ -68,6 +77,12 @@ export const MissionAttr = styled.p`
 
   display: inline-flex;
   align-items: center;
+
+  @media (max-width: 720px) {
+    font-size: 0.9rem;
+    line-height: 120%;
+    padding: 0.625rem 0;
+  }
 `;
 
 export const AttrIcon = styled.img`
