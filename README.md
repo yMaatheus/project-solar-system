@@ -19,7 +19,7 @@ Para conseguir seguir este README e rodar o projeto você pode precisar dos segu
 Para ter acesso aos arquivos do projeto você pode clonar usando o seguinte comando:
 
 ```
-git clone 
+git clone git@github.com:yMaatheus/project-solar-system.git
 ```
 
 ### 🔧 Instalação
@@ -41,3 +41,4 @@ npm start
 * [Npm](https://docs.npmjs.com/about-npm) - Gerente de dependências
 * [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) - Linguagem de programação
 * [React](http://www.dropwizard.io/1.0.2/docs/) - O framework web
+* [Styled Components](https://styled-components.com) - Biblioteca para estilização por componentes
