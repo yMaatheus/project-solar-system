@@ -4,7 +4,7 @@
 
 Este projeto exibe os planetas do sistema solar e algumas missões feitas por agências espaciais e seus paises.
 
-<img src="src/assets/solar-system.png" />
+<img src="src/assets/solar-system.png" width="488px" />
 
 ### 📋 Pré-requisitos
 
