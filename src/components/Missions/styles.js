@@ -70,23 +70,18 @@ export const AttributesWrapper = styled.section`
 `;
 
 export const MissionAttr = styled.p`
+  font-family: Roboto;
   font-size: 1.125rem;
-  line-height: 120%;
-
+  line-height: 1.125rem;
   padding: 0 ${(props) => (props.padding ? `${props.padding}rem` : '0.625rem')};
 
-  display: inline-flex;
+  display: flex;
   align-items: center;
+  gap: 0.5rem;
 
   @media (max-width: 720px) {
     font-size: 0.9rem;
-    line-height: 120%;
+    line-height: 0.9rem;
     padding: 0.625rem 0;
   }
-`;
-
-export const AttrIcon = styled.img`
-  vertical-align: middle;
-  margin-right: 0.5rem;
-  max-height: 18px;
 `;
