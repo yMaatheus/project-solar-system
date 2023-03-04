@@ -13,15 +13,15 @@ class MissionCard extends React.Component {
         <S.MissionName data-testid="mission-name">{name}</S.MissionName>
         <S.AttributesWrapper>
           <S.MissionAttr data-testid="mission-year">
-            <S.AttrIcon src={ dateIcon } alt="Date Icon" />
+            <img src={ dateIcon } alt="Date Icon" />
             {year}
           </S.MissionAttr>
           <S.MissionAttr padding="1.5" data-testid="mission-country">
-            <S.AttrIcon src={ locationIcon } alt="Location Icon" />
+            <img src={ locationIcon } alt="Location Icon" />
             {country}
           </S.MissionAttr>
           <S.MissionAttr padding="1.5" data-testid="mission-destination">
-            <S.AttrIcon src={ flagIcon } alt="Flag Icon" />
+            <img src={ flagIcon } alt="Flag Icon" />
             {destination}
           </S.MissionAttr>
         </S.AttributesWrapper>
